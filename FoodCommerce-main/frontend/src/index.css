@@ -1,0 +1,54 @@
+html {
+  font-size: 95%;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif !important;
+  color: rgba(49, 53, 59, 0.96);
+  line-height: 20px;
+  text-overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text-orange {
+  color: #ff3d00 !important;
+  cursor: pointer;
+}
+.text-green {
+  color: #1d5f0a !important;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+  font-weight: normal !important;
+}
+.star-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  z-index: -1;
+}
+.star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+.star-box {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-right: 0.3rem;
+}
+.overflow-show {
+  overflow-y: visible;
+  overflow-x: visible;
+}

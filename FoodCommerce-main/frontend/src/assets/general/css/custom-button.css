@@ -1,0 +1,16 @@
+.orange-button {
+  color: rgb(248, 247, 247) !important;
+  background-color: #ff3d00 !important;
+  border-color: #ff3d00 !important;
+}
+
+.orange-button.outline {
+  color: #ff3d00 !important;
+  background-color: unset !important;
+  border-color: #ff3d00 !important;
+}
+.orange-button.outline:hover {
+  color: #ffff !important;
+  background-color: #ff3d00 !important;
+  /* border-color: white !important; */
+}

@@ -1,0 +1,117 @@
+.clicked {
+  background-color: gray !important;
+  color: white !important;
+}
+.bordered {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  color: grey;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+/* product images input */
+
+#input-image-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.input-image {
+  position: relative;
+  border: 1px dotted gray;
+  width: 10rem;
+  height: 10rem;
+  background-position: center;
+  background-size: cover;
+  margin: 1rem;
+  cursor: pointer;
+}
+.input-image.imgMain {
+  background-image: url("../images/img-main.jpg");
+}
+.input-image.imgFront {
+  background-image: url("../images/img-front.jpg");
+}
+.input-image.imgTop {
+  background-image: url("../images/img-top.jpg");
+}
+.input-image.imgSide {
+  background-image: url("../images/img-side.jpg");
+}
+.input-image.imgOther {
+  background-image: url("../images/img-other.jpg");
+}
+.input-image.small {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.5rem;
+}
+.input-image-header,
+.input-video-header,
+.input-image-uploading {
+  position: absolute;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.input-video-header {
+  display: flex;
+}
+.input-image-header button,
+.input-video-header button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  z-index: 1;
+}
+.input-image-header button:hover,
+.input-video-header button:hover {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  font-size: 0.8rem;
+}
+.input-image-title,
+.input-video-title {
+  font-size: 0.5rem;
+}
+#input-video-wrapper {
+  position: relative;
+  display: none;
+  width: 360px;
+  height: auto;
+}
+.input-error {
+  font-size: 0.75rem;
+  display: none;
+  color: red;
+}
+
+/* Categories button*/
+.selected-subcat {
+  border-color: sandybrown !important;
+  background-color: slategrey !important;
+  color: white !important;
+}
+
+.input-image-uploading {
+  pointer-events: auto;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+/* disable button */
